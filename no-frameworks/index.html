@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./icons/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Metamap tech</title>
+  </head>
+  <body>
+    <div class="container">
+      <metamap-button clientid="<clientid>" flowid="<flowid>">
+    </div>
+    </metamap-button>
+    <script type="text/javascript">
+      const button = document.querySelector('metamap-button');
+      button.addEventListener('metamap:loaded', ({ detail }) => console.log('[METAMAP] Loaded', detail));
+      button.addEventListener('metamap:userStartedSdk', ({ detail }) => console.log('[METAMAP] User started verification', detail));
+      button.addEventListener('metamap:userFinishedSdk', ({ detail }) => console.log('[METAMAP] User finished verification', detail));
+      button.addEventListener('metamap:exitedSdk', ({ detail }) => console.log('[METAMAP] User exited verification', detail));
+    </script>
+    <script module src="https://web-button.getmati.com/button.js"></script>
+  </body>
+</html>

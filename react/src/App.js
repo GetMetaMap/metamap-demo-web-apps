@@ -1,7 +1,9 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 
 function App() {
   const button = useRef(null);
+  const [clientid] = useState('YOUR_CLIENT_ID');
+  const [flowid] = useState('YOUR_FLOW_ID');
 
   useEffect(() => {
     if (button.current) {
@@ -15,8 +17,8 @@ function App() {
   return (
     <metamap-button
       ref={button}
-      clientid="<clientid>"
-      flowid="<flowid>"
+      clientid={clientid}
+      flowid={flowid}
     >
     </metamap-button>
   );

@@ -1,12 +1,12 @@
 ![MetaMap](metamap.svg)
 
-# [MetaMap](https://www.metamap.com/) WebSDK demo apps
+# WebSDK demo apps
 
 This is repository with examples of MetaMap Button integrations
 
-* [No frameworks](tree/main/no-frameworks)
-* [Angular](tree/main/angular)
-* [React](tree/main/react)
-* [Vue](tree/main/vue)
+* [No frameworks](https://github.com/GetMetaMap/demo-web-app/tree/main/no-frameworks)
+* [Angular](https://github.com/GetMetaMap/demo-web-app/tree/main/angular)
+* [React](https://github.com/GetMetaMap/demo-web-app/tree/main/react)
+* [Vue](https://github.com/GetMetaMap/demo-web-app/tree/main/vue)
 
 ## [Metamap Documentation](https://docs.metamap.com/docs/sdk)

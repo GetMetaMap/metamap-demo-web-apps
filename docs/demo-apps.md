@@ -1,6 +1,6 @@
 ---
 title: "Web Application Examples"
-excerpt: "Example web apps for your framework"
+excerpt: "Add the MetaMap button to your web app"
 slug: "web-demos"
 category: 61ae8e8dba577a0010791480
 ---

@@ -68,7 +68,7 @@ The React example uses the React CLI. To run this example:
 ## Vue
 
 The Vue example uses the Vue CLI. To run this example:
-1. Download the <a href="https://github.com/GetMetaMap/demo-web-app/tree/main/vue" target="_blank">React files</a>
+1. Download the <a href="https://github.com/GetMetaMap/demo-web-app/tree/main/vue" target="_blank">Vue files</a>
 1. Add your Client ID and Metamap (Flow) ID for your <a href="https://dashbard.getmati.com/dev" target="_blank">MetaMap</a> to the `src/components/MetamapButton.vue` file in the `data()` function:
 
    ```
